@@ -29,18 +29,31 @@ playerY = 48
 playerX_change = 0
 
 # Enemy
+# Initialize empty lists to store enemy image, position, and movement data
 enemyImg = []
 enemyX = []
 enemyY = []
 enemyX_change = []
 enemyY_change = []
+
+# Set the number of enemies to create
 num_of_enemies = 9
 
+# Loop through the number of enemies to create and add them to the lists
 for i in range(num_of_enemies):
+    # Load the enemy image and add it to the enemyImg list
     enemyImg.append(pygame.image.load('enemy.png'))
+    
+    # Set the initial X position of the enemy using a random integer between 0 and 736, and add it to the enemyX list
     enemyX.append(random.randint(0, 736))
+    
+    # Set the initial Y position of the enemy using a random integer between 50 and 150, and add it to the enemyY list
     enemyY.append(random.randint(50, 150))
+    
+    # Set the amount the enemy will move horizontally each frame, and add it to the enemyX_change list
     enemyX_change.append(4)
+    
+    # Set the amount the enemy will move vertically each frame, and add it to the enemyY_change list
     enemyY_change.append(40)
 
 # Bullet
