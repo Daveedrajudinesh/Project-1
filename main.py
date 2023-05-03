@@ -73,8 +73,8 @@ bullet_state = "start"
 score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 32)
 
-textX = 10
-testY = 10
+textX = 20
+testY = 20
 
 # Game Over
 over_font = pygame.font.Font('freesansbold.ttf', 64)
