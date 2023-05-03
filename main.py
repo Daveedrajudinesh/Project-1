@@ -174,7 +174,7 @@ while running:
         if collision:
             explosionSound = mixer.Sound("explosion.wav")
             explosionSound.play()
-            bulletY = 480
+            bulletY = 410
             bullet_state = "start"
             score_value += 1
             enemyX[i] = random.randint(0, 736)
@@ -184,7 +184,7 @@ while running:
 
     # Bullet Movement
     if bulletY <= 0:
-        bulletY = 480
+        bulletY = 410
         bullet_state = "start"
 
     if bullet_state is "fire":
