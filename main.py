@@ -58,7 +58,7 @@ for i in range(num_of_enemies):
 
 # Bullet
 
-# Ready - You can't see the bullet on the screen
+# start - You can't see the bullet on the screen
 # Fire - The bullet is currently moving
 
 bulletImg = pygame.image.load('bullet.png')
