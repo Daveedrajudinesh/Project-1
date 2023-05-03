@@ -62,9 +62,9 @@ for i in range(num_of_enemies):
 # Fire - The bullet is currently moving
 
 bulletImg = pygame.image.load('bullet.png')
-bulletX = 0
+bulletX = 1
 bulletY = 480
-bulletX_change = 0
+bulletX_change = 1
 bulletY_change = 10
 bullet_state = "start"
 
@@ -127,9 +127,9 @@ while running:
         # if keystroke is pressed check whether its right or left
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
-                playerX_change = -5
+                playerX_change = -4
             if event.key == pygame.K_RIGHT:
-                playerX_change = 5
+                playerX_change = 4
             if event.key == pygame.K_SPACE:
                 if bullet_state is "ready":
                     bulletSound = mixer.Sound("laser.wav")
