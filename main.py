@@ -63,7 +63,7 @@ for i in range(num_of_enemies):
 
 bulletImg = pygame.image.load('bullet.png')
 bulletX = 1
-bulletY = 480
+bulletY = 410
 bulletX_change = 1
 bulletY_change = 10
 bullet_state = "start"
