@@ -172,7 +172,7 @@ while running:
     # Bullet Movement
     if bulletY <= 0:
         bulletY = 480
-        bullet_state = "ready"
+        bullet_state = "start"
 
     if bullet_state is "fire":
         fire_bullet(bulletX, bulletY)
