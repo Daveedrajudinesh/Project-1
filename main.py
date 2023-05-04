@@ -44,8 +44,8 @@ for i in range(num_of_enemies):
     # Load the enemy image and add it to the enemyImg list
     enemyImg.append(pygame.image.load('enemy.png'))
     
-    # Set the initial X position of the enemy using a random integer between 0 and 736, and add it to the enemyX list
-    enemyX.append(random.randint(0, 736))
+    # Set the initial X position of the enemy using a random integer between 0 and 700, and add it to the enemyX list
+    enemyX.append(random.randint(0, 700))
     
     # Set the initial Y position of the enemy using a random integer between 50 and 150, and add it to the enemyY list
     enemyY.append(random.randint(50, 150))
