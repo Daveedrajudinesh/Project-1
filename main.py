@@ -165,7 +165,7 @@ while running:
         if enemyX[i] <= 0:
             enemyX_change[i] = 4
             enemyY[i] += enemyY_change[i]
-        elif enemyX[i] >= 736:
+        elif enemyX[i] >= 700:
             enemyX_change[i] = -4
             enemyY[i] += enemyY_change[i]
 
@@ -192,5 +192,6 @@ while running:
         bulletY -= bulletY_change
 
     player(playerX, playerY)
-    show_score(textX, testY)
+    show_score(textX, testY) 
+    #score is represented through it
     pygame.display.update()
