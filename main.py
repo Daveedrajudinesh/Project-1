@@ -94,8 +94,8 @@ def player(x, y):
     screen.blit(playerImg, (x, y))
 
 
-def enemy(x, y, i):
-    screen.blit(enemyImg[i], (x, y))
+def enemy(x, y, j):
+    screen.blit(enemyImg[j], (x, y))
 
 
 def fire_bullet(x, y):
