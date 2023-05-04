@@ -74,7 +74,7 @@ score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 32)
 
 textX = 20
-testY = 
+testY = 20
 
 # Game Over
 over_font = pygame.font.Font('freesansbold.ttf', 64)
